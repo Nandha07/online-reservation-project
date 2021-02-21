@@ -1,0 +1,45 @@
+  <!DOCTYPE html>
+  <html>
+  <head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <title>Contact Form - PHP/MySQL Demo Code</title>
+  <link rel="stylesheet" href="style.css">
+  </head>
+
+<div class=forms>
+  <body>
+
+    <h1>  COURSE RESERVATION</h1>
+    <form  method="post" action="course.php" >
+        <label for="Name">Name </label>
+        <input type="text" name="name" ><br>
+        <label for="email">Email</label>
+        <input type="text" name="email" ><br>
+        <label for="phone">Phone</label>
+        <input type="text" name="phone" ><br>
+        <label for="DATE">DATE</label>
+        <input type="date" name="date" ><br>
+        <br><label for="gender">GENDER</label>
+
+
+        <input type ='radio' name ='gender' value="male"/> male
+        <input type ='radio' name ='gender' value="female"/> female<br>
+
+        <label for="course ">course</label>
+
+        <select name='course'  >
+          <option value="cse">CSE</option>
+          <option value="EEE">EEE</option>
+          <option value="ECE">ECEE</option>
+          <option value="MECH">MECH</option>
+          <option value="CIVIL">CIVIL</option>
+
+
+        </select>
+
+        <button type="submit" name="Submit" >reserve</button><br>
+    </form>
+  </div>
+  </div>
+  </body>
+  </html>

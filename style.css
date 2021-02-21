@@ -1,0 +1,136 @@
+
+body{
+
+  background-color: #000;
+  word-spacing: 10px;
+
+  background-repeat: no-repeat;
+
+
+  outline: 7px;
+  min-width:50%;
+  margin-top: 20px;
+  padding:0;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+min-height: 250vh;
+  max-height:550vh;
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url('./17.jpg');
+
+
+}
+.forms{
+position: absolute;
+left: 50;
+  text-align: center;
+  padding: 10px;
+  margin-left: 40%;
+  color: violet;
+  box-sizing: border-box;
+  background-color: #000000b3;
+  padding: 70px 40px;
+border-radius: 10px;
+  background-size: 100%;
+  
+  border-radius: 10px;
+  outline:5px
+  color:violet;
+  min-width:30%;
+min-height:200px ;
+  text-align:center;
+  margin-left:50%;
+  top:50%;
+  transform: translate(-50%,-50%);
+
+}input[type=text]{
+  width:50%;
+  padding:12px 20px;
+  margin:25px 0;
+  border:1px grey;
+  border-radius: 4px;
+  box-sizing:border_box;
+}
+button[type=submit] {
+  width: 30%;
+  background-color: green;
+  color:white;
+  padding:12px 12px;
+  border:none;
+  margin :8px ;
+  border-radius: 4px;
+  cursor:pointer;
+}
+
+
+
+
+a:link{
+  text-decoration: none;
+}
+.header{
+  background-color: lightgray;
+}
+ul {
+
+  float:right;
+  list-style: none;
+  margin-left: 10px;
+}
+ul li{
+
+  display:inline-block;
+}
+ul li a{
+
+  color:#fff;
+  padding:5px 20px;
+  border:1px solid transparent;
+  transition: 0.6s ease;
+}
+ul li a:hover{
+  background-color: #fff;
+  color:#000;
+}
+
+ul li.active a{
+
+  background-color: #fff;
+  color:#000;
+}
+
+ h2,h3{
+  color:orange  ;
+}
+
+body .back{
+  background-color: black;
+}
+/*@media screen and (max-width:900px)  {
+  body{
+    background-color: black;
+
+
+  }
+
+
+}
+@media screen and (max-width:500px)  {
+  body{
+    background-color: yellow;
+    color:red;
+    font-size: 16px;
+}
+.forms{
+  min-height:200px;
+}
+@media screen and (max-width:500px)  {
+  body{
+    background-color: yellow;
+    color:red;
+    font-size: 16px;
+}
+.forms{
+  max-height:700px;
+}
+*/
